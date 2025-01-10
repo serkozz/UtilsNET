@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EB5974F-F20A-4CF5-94E0-DC808E53EE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsNET.Vpn", "src\UtilsNET.Vpn\UtilsNET.Vpn.csproj", "{AD6E6AF1-203B-4E31-8A94-582A67BEC95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsNET.Vpn.AdGuard", "src\UtilsNET.Vpn.AdGuard\UtilsNET.Vpn.AdGuard.csproj", "{BC62F292-0938-42C1-B6E4-2FD67AEE1034}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2FB7B50A-14C8-4044-A20D-F58631A30A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsNET.Vpn.Tests", "tests\UtilsNET.Vpn.Tests\UtilsNET.Vpn.Tests.csproj", "{F789DAE2-4545-4DF2-9985-BE771240A522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsNET.Net", "src\UtilsNET.Net\UtilsNET.Net.csproj", "{34CE934B-DD48-4CDC-8A83-E50259F9B3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsNET.Net.Tests", "tests\UtilsNET.Net.Tests\UtilsNET.Net.Tests.csproj", "{9A09C1F8-82D7-470D-B92D-748C8825E946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD6E6AF1-203B-4E31-8A94-582A67BEC95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6E6AF1-203B-4E31-8A94-582A67BEC95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6E6AF1-203B-4E31-8A94-582A67BEC95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6E6AF1-203B-4E31-8A94-582A67BEC95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC62F292-0938-42C1-B6E4-2FD67AEE1034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC62F292-0938-42C1-B6E4-2FD67AEE1034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC62F292-0938-42C1-B6E4-2FD67AEE1034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC62F292-0938-42C1-B6E4-2FD67AEE1034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F789DAE2-4545-4DF2-9985-BE771240A522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F789DAE2-4545-4DF2-9985-BE771240A522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F789DAE2-4545-4DF2-9985-BE771240A522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F789DAE2-4545-4DF2-9985-BE771240A522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CE934B-DD48-4CDC-8A83-E50259F9B3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CE934B-DD48-4CDC-8A83-E50259F9B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CE934B-DD48-4CDC-8A83-E50259F9B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CE934B-DD48-4CDC-8A83-E50259F9B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A09C1F8-82D7-470D-B92D-748C8825E946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A09C1F8-82D7-470D-B92D-748C8825E946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A09C1F8-82D7-470D-B92D-748C8825E946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A09C1F8-82D7-470D-B92D-748C8825E946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD6E6AF1-203B-4E31-8A94-582A67BEC95F} = {1EB5974F-F20A-4CF5-94E0-DC808E53EE39}
+		{BC62F292-0938-42C1-B6E4-2FD67AEE1034} = {1EB5974F-F20A-4CF5-94E0-DC808E53EE39}
+		{F789DAE2-4545-4DF2-9985-BE771240A522} = {2FB7B50A-14C8-4044-A20D-F58631A30A7C}
+		{34CE934B-DD48-4CDC-8A83-E50259F9B3D6} = {1EB5974F-F20A-4CF5-94E0-DC808E53EE39}
+		{9A09C1F8-82D7-470D-B92D-748C8825E946} = {2FB7B50A-14C8-4044-A20D-F58631A30A7C}
+	EndGlobalSection
+EndGlobal
