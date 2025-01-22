@@ -18,16 +18,12 @@ public static class InternetProtocol
     public static string GetPublicIP()
     {
         string ip = string.Empty;
-        HttpClient client = new();
+        using HttpClient client = new();
         try
         {
             ip = client.GetAsync("https://api.ipify.org").Result.Content.ReadAsStringAsync().Result;
         }
         catch (Exception) { }
-        finally
-        {
-            client.Dispose();
-        }
         return ip;
     }
 }
