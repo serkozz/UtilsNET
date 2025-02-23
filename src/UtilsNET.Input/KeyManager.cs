@@ -1,6 +1,8 @@
 ﻿using System.Runtime.InteropServices;
 using System.Globalization;
 
+namespace UtilsNET.Input;
+
 static partial class KeyManager
 {
     [LibraryImport("user32.dll")]
